@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### `About App`
 
-OUS Weather is a ReactJs weather application To track the weather , based on openweathermap API and Geolocation API 
+AO Weather is a ReactJs weather application To track the weather , based on openweathermap API and Geolocation API 
 
 ### `How To Use App`
 

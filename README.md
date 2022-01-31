@@ -69,13 +69,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+# App
+
+Completed in January 2022
 
 ### `About App`
 
-AO Weather is a ReactJs weather application To track the weather , based on openweathermap API and Geolocation API 
+AO Weather is a ReactJs weather application To track the weather , based on openweathermap API and Geolocation API
 
 ### `How To Use App`
 
 You can just type city name and click enter to get data .
-OR 
+OR
 Click the button to get data by device location .

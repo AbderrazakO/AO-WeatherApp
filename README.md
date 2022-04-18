@@ -1,87 +1,47 @@
-# Getting Started with Create React App
+# Detect Fall Usin Accelerometer & Web APIs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+An accelerometer is a device that allows you to measure and analyse linear and angular acceleration ( the rate of change of an object’s velocity ) and takes measurements in one, two or three planes, this function is essential for many devices and systems whether it's to detect if a system is falling to detect seismic activity or to flip your phone to snooze \
+There are two types of acceleration forces:
 
-In the project directory, you can run:
+- Static forces are forces that are constantly being applied to the object (such as friction or gravity).
+- Dynamic forces are “moving” forces applied to the object at various rates (such as vibration, or the force exerted on a ball).
 
-### `npm start`
+\
+In this project we build a fall-detection systems, that we can use in our smart phone to resolve the problem of falls among the elderly.
+\
+Technologies used :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ReactJs
+- Sass
+- Web APIs
+- Recharts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup
 
-### `npm test`
+Clone the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/AbderrazakO/detect-fall.git
+```
 
-### `npm run build`
+Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm i
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+## Development
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![screencapture-ao-weatherapp-netlify-app-2022-04-18-21_36_06](https://user-images.githubusercontent.com/72947119/163881792-8e9d9a3f-e97a-4aa0-ab5a-9e81619223ca.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![screencapture-ao-weatherapp-netlify-app-2022-04-18-21_36_32](https://user-images.githubusercontent.com/72947119/163881825-9e1ffae4-0e6f-4282-843e-ef43e433dad7.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# App
-
-Completed in January 2022
-
-### `About App`
-
-AO Weather is a ReactJs weather application To track the weather , based on openweathermap API and Geolocation API
-
-### `How To Use App`
-
-You can just type city name and click enter to get data .
-OR
-Click the button to get data by device location .
-
-### `Website Live`
-https://ao-weatherapp.netlify.app/

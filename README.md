@@ -10,12 +10,13 @@ There are two types of acceleration forces:
 \
 In this project we build a fall-detection systems, that we can use in our smart phone to resolve the problem of falls among the elderly.
 \
-Technologies used :
+Technologies & Tools used :
 
-- ReactJs
-- Sass
-- Web APIs
-- Recharts
+- <a href="https://reactjs.org/">ReactJs</a>
+- <a href="https://sass-lang.com/guide">Sass</a>
+- <a href="https://openweathermap.org/current">Openweathermap API</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API">Geolocation API</a>
+- <a href="https://www.amcharts.com/free-animated-svg-weather-icons/">Icons</a>
 
 ## Setup
 

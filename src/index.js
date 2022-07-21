@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { RiArrowLeftLine } from 'react-icons/ri'
 import './index.css'
 
-let Root = () => {
+const Root = () => {
   // Use States
   let [data, setData] = useState({})
   let [stat, setStat] = useState('')
@@ -146,6 +146,7 @@ let Root = () => {
             </div>
           </section>
         </section>
+        <footer>© 2022 - Made by Abderrazq Oussi</footer>
       </>
     )
   } else {
@@ -179,6 +180,7 @@ let Root = () => {
             </div>
           </div>
         </section>
+        <footer>© 2022 - Made by Abderrazq Oussi</footer>
       </>
     )
   }

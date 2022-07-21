@@ -13,7 +13,12 @@ $green-color-2: #80ed99;
   padding: 0;
   box-sizing: border-box;
 }
-
+footer {
+  font-family: $font-family-poppins;
+  font-size: 1.1rem;
+  width: 100%;
+  text-align: center;
+}
 body,
 #root {
   width: 100%;
